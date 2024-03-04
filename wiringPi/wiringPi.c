@@ -1423,7 +1423,7 @@ void pinMode (int pin, int mode)
 				  return;
 			
 			if (-1 == pin) {
-				printf("[%s:L%d] the pin:%d is invaild,please check it over!\n", 
+				printf("[%s:L%d] the pin:%d is invaild,please check it over!\n",
 							__func__,  __LINE__, pin);
 				return;
 			}
